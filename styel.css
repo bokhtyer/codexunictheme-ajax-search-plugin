@@ -1,0 +1,134 @@
+/*Ajax Search Css*/
+.search-post-full-full {
+	position: relative;
+}
+.search_result_warp {
+	background: #17607d;
+	width: 100%;
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	color: #fff;
+}
+#Search_loading{
+	background-color: #17607d;
+	height: 100px;
+	width: 100%;
+	padding: 20px;
+}
+#Search_loading-center{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	}
+#Search_loading-center-absolute {
+	position: absolute;
+	margin: 0 auto;
+	height: 0px;
+	width: 0px;
+	-ms-transform: rotate(-75deg);
+	-webkit-transform: rotate(-75deg);
+	transform: rotate(-30deg);
+}
+.Search_object {
+	-moz-border-radius: 50% 50% 50% 50%;
+	-webkit-border-radius: 50% 50% 50% 50%;
+	border-radius: 50% 50% 50% 50%;
+	position: absolute;
+	border-top: 3px solid #FFF;
+	border-bottom: 3px solid transparent;
+	border-left: 3px solid #FFF;
+	border-right: 3px solid transparent;
+	-webkit-animation: animate 2s infinite;
+	animation: animate 2s infinite;
+}
+#Search_object_two {
+	left: 55px;
+	top: 55px;
+	width: 42px;
+	height: 42px;
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+	display: none;
+}
+
+							
+#Search_object_one {
+	left: 54px;
+	top: 54px;
+	width: 25px;
+	height: 25px;
+}
+		
+#Search_object_three {
+	left: 55px;
+	top: 55px;
+	width: 25px;
+	height: 25px;
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+}
+#Search_object_four {
+	top: 47px;
+	width: 42px;
+	height: 42px;
+	-webkit-animation-delay: 0.6s;
+	animation-delay: 0.6s;
+	left: 47px;
+}
+
+@-webkit-keyframes animate {
+ 
+
+50% {
+
+	-ms-transform: rotate(360deg) scale(0.8); 
+   	-webkit-transform: rotate(360deg) scale(0.8); 
+    transform: rotate(360deg) scale(0.8); 
+  }
+	  
+  
+
+}
+
+@keyframes animate {
+	
+50% {
+
+	-ms-transform: rotate(360deg) scale(0.8); 
+   	-webkit-transform: rotate(360deg) scale(0.8); 
+    transform: rotate(360deg) scale(0.8); 
+  }	
+	
+	}
+
+
+.search_result {
+	padding-top: ;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.search_result img {
+	max-width: 80px;
+	height: 60px;
+	float: left;
+	width: 100%;
+}
+.search_result h6 {
+	color: #fff;
+	font-size: 20px;
+	overflow: hidden;
+	display: inherit;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+.search_result:hover h6{
+	color: #7cf047;
+}
+.search_results {
+	width: 100%;
+	height: 300px;
+	overflow: auto;
+}
